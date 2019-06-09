@@ -6,7 +6,7 @@
  * Time: 1:24 AM
  */
 
-namespace Aos\Autoloader\Service;
+namespace Aos\AutoloaderPsr4\Service;
 
 
 class DequeueMessageService implements DequeueMessageInterface

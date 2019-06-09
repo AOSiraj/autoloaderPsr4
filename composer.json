@@ -1,5 +1,5 @@
 {
-    "name": "aos/autoloaderPsr4",
+    "name": "aos/autoloaderpsr4",
     "description": "this is a sample psr4 package",
     "type": "library",
     "require": {
@@ -17,7 +17,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Aos\\AutoloaderPsr4\\": ["src/psr4"]
+            "Aos\\AutoloaderPsr4\\": ["src/AutoloaderPsr4"]
         }
     }
 }

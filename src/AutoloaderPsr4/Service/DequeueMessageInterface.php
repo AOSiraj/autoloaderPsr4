@@ -6,7 +6,7 @@
  * Time: 1:22 AM
  */
 
-namespace Aos\Autoloader\Service;
+namespace Aos\AutoloaderPsr4\Service;
 
 
 interface DequeueMessageInterface
