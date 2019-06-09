@@ -17,7 +17,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Aos\\AutoloaderPsr4\\": ["src/AutoloaderPsr4"]
+            "Aos\\AutoloaderPsr4\\": ["src/"]
         }
     }
 }
