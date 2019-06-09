@@ -16,7 +16,7 @@ use Zend\ServiceManager\Factory\FactoryInterface;
 
 class MessageControllerFactory implements FactoryInterface
 {
-    public function __invoke(ContainerInterface $container, $requestedName, array $options = null)
+    public function __invoke( $container, $requestedName, array $options = null)
     {
         $dequeueMessageService =  $container->get(DequeueMessageService::class);
         $enqueueMessageService =  $container->get(EnqueueMessageService::class);

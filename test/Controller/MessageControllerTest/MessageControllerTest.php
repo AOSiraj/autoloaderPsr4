@@ -6,7 +6,7 @@
  * Time: 3:56 PM
  */
 
-namespace Aos\AutoloaderPsr4\Test;
+namespace Aos\AutoloaderPsr4\Controller\Test;
 
 
 use Aos\AutoloaderPsr4\Controller\MessageController;
