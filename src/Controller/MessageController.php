@@ -38,7 +38,7 @@ class MessageController extends AbstractActionController
     public function enqueueAction() {
         try{
             return new JsonModel([
-                'success' => $this->enqueueMessageService->enqueue('meassage')
+                'success' => $this->enqueueMessageService->enqueue('message')
             ]);
         }
         catch(\Exception $e){
