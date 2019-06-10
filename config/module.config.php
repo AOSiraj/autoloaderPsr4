@@ -28,8 +28,8 @@ return [
     ],
     'service_manager' => [
         'factories' => [
-            \Aos\AutoloaderPsr4\Service\DequeueMessageService::class => \Zend\ServiceManager\Factory\InvokableFactory::class,
-            \Aos\AutoloaderPsr4\Service\EnqueueMessageService::class => \Zend\ServiceManager\Factory\InvokableFactory::class
+            \Aos\AutoloaderPsr4\Service\DequeueMessageService::class => \Aos\AutoloaderPsr4\Factory\Service\DequeueMessageServiceFactory::class,
+            \Aos\AutoloaderPsr4\Service\EnqueueMessageService::class => \Aos\AutoloaderPsr4\Factory\Service\EnqueueMessageServiceFactory::class
         ]
     ]
 ];

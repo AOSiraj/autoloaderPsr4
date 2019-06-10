@@ -11,6 +11,17 @@ namespace Aos\AutoloaderPsr4\Service;
 
 class EnqueueMessageService implements EnqueueMessageInterface
 {
+    public $doSomething;
+
+    /**
+     * EnqueueMessageService constructor.
+     * @param $doSomething
+     */
+    public function __construct($doSomething)
+    {
+        $this->doSomething = $doSomething;
+    }
+
     public function enqueue($message)
     {
         return 'done';
