@@ -17,7 +17,7 @@ class EnqueueMessageService implements EnqueueMessageInterface
      * EnqueueMessageService constructor.
      * @param $doSomething
      */
-    public function __construct($doSomething)
+    public function __construct($doSomething = null)
     {
         $this->doSomething = $doSomething;
     }

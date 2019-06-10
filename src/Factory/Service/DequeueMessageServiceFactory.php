@@ -13,9 +13,9 @@ use Aos\AutoloaderPsr4\Service\DequeueMessageService;
 use Interop\Container\ContainerInterface;
 use Zend\ServiceManager\Factory\FactoryInterface;
 
-class DequeueMessageServiceFactory
+class DequeueMessageServiceFactory implements FactoryInterface
 {
-    public function __invoke()
+    public function __invoke(ContainerInterface $container, $requestedName, array $options = null)
     {
         // TODO: Implement __invoke() method.
         return new DequeueMessageService();

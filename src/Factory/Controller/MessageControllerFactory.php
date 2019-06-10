@@ -6,7 +6,7 @@
  * Time: 5:41 PM
  */
 
-namespace Aos\AutoloaderPsr4\Factory;
+namespace Aos\AutoloaderPsr4\Factory\Controller;
 
 use Aos\AutoloaderPsr4\Service\DequeueMessageService;
 use Aos\AutoloaderPsr4\Controller\MessageController;

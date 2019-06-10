@@ -21,15 +21,4 @@ return [
             ],
         ]
     ],
-    'controllers' => [
-        'factories' => [
-            \Aos\AutoloaderPsr4\Controller\MessageController::class => \Aos\AutoloaderPsr4\Factory\MessageControllerFactory::class,
-        ]
-    ],
-    'service_manager' => [
-        'factories' => [
-            \Aos\AutoloaderPsr4\Service\DequeueMessageService::class => \Aos\AutoloaderPsr4\Factory\Service\DequeueMessageServiceFactory::class,
-            \Aos\AutoloaderPsr4\Service\EnqueueMessageService::class => \Aos\AutoloaderPsr4\Factory\Service\EnqueueMessageServiceFactory::class
-        ]
-    ]
 ];
