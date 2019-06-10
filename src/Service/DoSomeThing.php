@@ -14,4 +14,8 @@ class DoSomeThing
     public function anything() {
         return "Nope!!!";
     }
+
+    public function justForTest() {
+        return $this->anything();
+    }
 }

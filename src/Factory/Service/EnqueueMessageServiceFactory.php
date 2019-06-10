@@ -19,8 +19,6 @@ class EnqueueMessageServiceFactory implements FactoryInterface
 {
     public function __invoke(ContainerInterface $container, $requestedName, array $options = null)
     {
-        // TODO: Implement __invoke() method.
-        var_dump("I was here");
         return new EnqueueMessageService(new DoSomeThing());
     }
 }

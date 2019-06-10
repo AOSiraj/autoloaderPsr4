@@ -1,6 +1,6 @@
-<?php namespace Aos\AutoloaderPsr4\Factory\Test;
+<?php namespace Aos\AutoloaderPsr4\Factory\Controller\Test;
 use Aos\AutoloaderPsr4\Controller\MessageController;
-use Aos\AutoloaderPsr4\Factory\MessageControllerFactory;
+use Aos\AutoloaderPsr4\Factory\Controller\MessageControllerFactory;
 use Aos\AutoloaderPsr4\Service\DequeueMessageService;
 use Aos\AutoloaderPsr4\Service\EnqueueMessageService;
 use PHPUnit\Framework\TestCase;
@@ -38,7 +38,6 @@ class MessageControllerFactoryTest extends TestCase
         $__invokeReflection = $factoryReflection->getMethod('__invoke');
         $__invokeReflection->setAccessible(true);
         $value = $__invokeReflection->invokeArgs(new MessageControllerFactory(), [$this->container, '', null]);
-//        $factor
         $this->assertInstanceOf(MessageController::class, $value);
     }
 }
